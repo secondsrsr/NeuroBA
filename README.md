@@ -39,7 +39,7 @@ seeds on ~500 synthetic traces
 
 Time usage: 60 min on a VM with 32 vCPUs.
 ```bash
-cd FenNR # cd into the project root
+cd NeuroBA # cd into the project root
 python sr/simulator/evaluate_synthetic_traces.py \
   --save-dir results/cc/evaluate_synthetic_dataset \
   --dataset-dir datas/cc/synthetic_dataset
